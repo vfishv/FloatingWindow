@@ -60,6 +60,15 @@ class SVideoView : FrameLayout {
         }
     }
 
+    fun playVideo(path: String) {
+        mVideoView.setVideoPath(path)
+        mVideoView.start()
+        mVideoView.requestFocus()
+        mVideoView.setOnCompletionListener {
+            mVideoView.start()
+        }
+    }
+
     fun stop(){
         mVideoView.stopPlayback()
     }
