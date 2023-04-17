@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 if (!mVideoService.isOpen()) {
                     mVideoService.addView(this)
-                    mVideoService.addData("sdcard/弦内之音.mp4")
+                    mVideoService.addData("/sdcard/test.mp4")
                 }
             }
         }
