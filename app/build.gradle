@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 //apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     namespace "com.js.floatingwindow"
     defaultConfig {
         applicationId "com.js.floatingwindow"
